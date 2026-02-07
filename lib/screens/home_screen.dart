@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue, // navy-like
+        backgroundColor: const Color(0xFF000080), // navy-like
         title: const Text(
           'NRApp',
           style: TextStyle(color: Colors.white),
